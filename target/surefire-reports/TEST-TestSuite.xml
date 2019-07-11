@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="144.523" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="fileName" value="full_regression_dev_ie_testng.xml"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\TKRepo\TKJavaProject\target\test-classes;C:\TKRepo\TKJavaProject\target\classes;C:\Users\fdipace\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\fdipace\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\fdipace\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\fdipace\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\fdipace\.m2\repository\info\cukes\cucumber-picocontainer\1.2.5\cucumber-picocontainer-1.2.5.jar;C:\Users\fdipace\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\fdipace\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\fdipace\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\fdipace\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\fdipace\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\fdipace\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\fdipace\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\fdipace\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\fdipace\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\fdipace\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\fdipace\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\fdipace\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\fdipace\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\fdipace\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\fdipace\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\fdipace\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\fdipace\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\fdipace\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\fdipace\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Buenos_Aires"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\fdipace\AppData\Local\Temp\surefire8560055525147267823\surefirebooter7627467753295844846.jar C:\Users\fdipace\AppData\Local\Temp\surefire8560055525147267823 2019-07-11T15-58-30_091-jvmRun1 surefire2822296729840983875tmp surefire_013764852595579404220tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\TKRepo\TKJavaProject\target\test-classes;C:\TKRepo\TKJavaProject\target\classes;C:\Users\fdipace\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\fdipace\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\fdipace\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\fdipace\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\fdipace\.m2\repository\info\cukes\cucumber-picocontainer\1.2.5\cucumber-picocontainer-1.2.5.jar;C:\Users\fdipace\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\fdipace\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\fdipace\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\fdipace\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\fdipace\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\fdipace\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\fdipace\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\fdipace\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\fdipace\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\fdipace\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\fdipace\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\fdipace\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\fdipace\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\fdipace\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\fdipace\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\fdipace\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\fdipace\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\fdipace\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\fdipace\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\fdipace\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\fdipace"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-12.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\TKRepo\TKJavaProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\fdipace\AppData\Local\Temp\surefire8560055525147267823\surefirebooter7627467753295844846.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="12.0.1+12"/>
+    <property name="user.name" value="fdipace"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\fdipace\.m2\repository"/>
+    <property name="cucumber.options" value="--tags @BadLogin"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\fdipace\AppData\Local\Temp\"/>
+    <property name="java.version" value="12.0.1"/>
+    <property name="user.dir" value="C:\TKRepo\TKJavaProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\TKRepo\TKJavaProject\node_modules\.bin;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-12.0.1\bin;%AppData%\npm;C:\Program Files (x86)\LeanPro\CukeTest\;C:\Program Files\cURL\bin;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\tools\groovy-2.5.7\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files (x86)\GNU\GnuPG\pub;C:\Users\fdipace\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\maven\apache-maven-3.6.1\bin;C:\Ruby25-x64\bin;C:\Users\fdipace\AppData\Local\Microsoft\WindowsApps;C:\Users\fdipace\AppData\Local\GitHubDesktop\bin;C:\Users\fdipace\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\fdipace\AppData\Roaming\npm;C:\Users\fdipace\AppData\Local\Yarn\bin;C:\tools\mysql\current\bin;C:\Users\fdipace\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Java\jdk-12.0.1\bin;C:\Gradle\gradle-2.14.1\bin;C:\Grails\grails-3.3.6\bin;C:\Python27;C:\Python27\Scripts;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.1+12"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="feature" classname="runner.TestRunner" time="142.951">
+    <failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.cssSelector: div.visible-lg * form &gt; p[id=loginErrorMessage]&apos; (tried for 60 second(s) with 500 milliseconds interval)" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.visible-lg * form > p[id=loginErrorMessage]' (tried for 60 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.visible-lg * form > p[id=loginErrorMessage]' (tried for 60 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to find element with css selector == div.visible-lg * form > p[id=loginErrorMessage]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NTBK-CME-0012', ip: '192.168.0.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: false, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:21421/, nativeEvents: false, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7e4b9221-fad2-4179-a320-f16da918e6ab
+*** Element info: {Using=css selector, value=div.visible-lg * form > p[id=loginErrorMessage]}
+</failure>
+    <system-out><![CDATA[Feature: Trendkite Login Page
+  
+  As a Trendkite user
+  I want to be able to Login to the application
+  In order to access its features
+
+  @BadLogin @Regression
+  Scenario Outline: User cannot login to Trendkite with invalid user or password &amp#27;[90m# login.feature:16&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mI navigate to Trendkite login page&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter username <username> and password <password>&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click the Sign in button&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI validate Incorrect User or Password message is displayed&amp#27;[0m
+
+    Examples: 
+
+Preparing Browser...
+
+Browser 'Internet Explorer' is ready!
+
+Executing Scenario: 'User cannot login to Trendkite with invalid user or password'
+Initiating Teardown...
+Closing Browser 'Internet Explorer'...
+Passed Scenario Name: 'User cannot login to Trendkite with invalid user or password'
+Browser is closed!!!
+---------------------------------------------------------------
+
+Preparing Browser...
+
+Browser 'Internet Explorer' is ready!
+
+Executing Scenario: 'User cannot login to Trendkite with invalid user or password'
+  @Regression @BadLogin
+  Scenario Outline: User cannot login to Trendkite with invalid user or password   &amp#27;[90m# login.feature:23&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to Trendkite login page&amp#27;[0m                                       &amp#27;[90m# LoginSteps.iNavigateToTrendkiteLoginPage()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter username &amp#27;[0m&amp#27;[32m&amp#27;[1mTK_E2E_USER_3@trendkite.com&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1minvalidPassword&amp#27;[0m &amp#27;[90m# LoginSteps.iEnterUsernameAndPassword(String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the Sign in button&amp#27;[0m                                                 &amp#27;[90m# LoginSteps.iClickTheSignInButton()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI validate Incorrect User or Password message is displayed&amp#27;[0m                &amp#27;[90m# LoginSteps.iValidateIncorrectUserOrPasswordMessageIsDisplayed()&amp#27;[0m
+
+Initiating Teardown...
+Closing Browser 'Internet Explorer'...
+Passed Scenario Name: 'User cannot login to Trendkite with invalid user or password'
+Browser is closed!!!
+---------------------------------------------------------------
+
+Preparing Browser...
+
+Browser 'Internet Explorer' is ready!
+
+Executing Scenario: 'User cannot login to Trendkite with invalid user or password'
+  @Regression @BadLogin
+  Scenario Outline: User cannot login to Trendkite with invalid user or password    &amp#27;[90m# login.feature:24&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to Trendkite login page&amp#27;[0m                                        &amp#27;[90m# LoginSteps.iNavigateToTrendkiteLoginPage()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter username &amp#27;[0m&amp#27;[32m&amp#27;[1minvalidUser&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m250672130AED4F0EB0C76A80A19DBE9E&amp#27;[0m &amp#27;[90m# LoginSteps.iEnterUsernameAndPassword(String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the Sign in button&amp#27;[0m                                                  &amp#27;[90m# LoginSteps.iClickTheSignInButton()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI validate Incorrect User or Password message is displayed&amp#27;[0m                 &amp#27;[90m# LoginSteps.iValidateIncorrectUserOrPasswordMessageIsDisplayed()&amp#27;[0m
+
+Initiating Teardown...
+Closing Browser 'Internet Explorer'...
+Failed Scenario Name: 'User cannot login to Trendkite with invalid user or password'
+Browser is closed!!!
+---------------------------------------------------------------
+  @Regression @BadLogin
+  Scenario Outline: User cannot login to Trendkite with invalid user or password                    &amp#27;[90m# login.feature:25&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to Trendkite login page&amp#27;[0m                                                        &amp#27;[90m# LoginSteps.iNavigateToTrendkiteLoginPage()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter username &amp#27;[0m&amp#27;[32m&amp#27;[1mTK_E2E_USER_3@trendkite.com&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m250672130AED4F0EB0C76A80A19DBE9E&amp#27;[0m &amp#27;[90m# LoginSteps.iEnterUsernameAndPassword(String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the Sign in button&amp#27;[0m                                                                  &amp#27;[90m# LoginSteps.iClickTheSignInButton()&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI validate Incorrect User or Password message is displayed&amp#27;[0m                                 &amp#27;[90m# LoginSteps.iValidateIncorrectUserOrPasswordMessageIsDisplayed()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.visible-lg * form > p[id=loginErrorMessage]' (tried for 60 second(s) with 500 milliseconds interval)
+      	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+      	at steps.LoginSteps.iValidateIncorrectUserOrPasswordMessageIsDisplayed(LoginSteps.java:74)
+      	at ?.Then I validate Incorrect User or Password message is displayed(login.feature:20)
+      Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == div.visible-lg * form > p[id=loginErrorMessage]
+      For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'NTBK-CME-0012', ip: '192.168.0.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+      Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+      Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: false, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:21421/, nativeEvents: false, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+      Session ID: 7e4b9221-fad2-4179-a320-f16da918e6ab
+      *** Element info: {Using=css selector, value=div.visible-lg * form > p[id=loginErrorMessage]}
+      	at jdk.internal.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
+      	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+      	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+      	at com.sun.proxy.$Proxy22.isDisplayed(Unknown Source)
+      	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+      	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+      	at steps.LoginSteps.iValidateIncorrectUserOrPasswordMessageIsDisplayed(LoginSteps.java:74)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+      	at cucumber.runtime.Utils$1.call(Utils.java:40)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+      	at cucumber.runtime.Utils.invoke(Utils.java:34)
+      	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+      	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+      	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+      	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+      	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+      	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+      	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+      	at org.testng.TestNG.runSuites(TestNG.java:1049)
+      	at org.testng.TestNG.run(TestNG.java:1017)
+      	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+      	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+      	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+      	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+      &amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
+3.14.0.0
+Listening on port 15154
+Only local connections are allowed
+Jul 11, 2019 3:58:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Started InternetExplorerDriver server (32-bit)
+3.14.0.0
+Listening on port 34634
+Only local connections are allowed
+Jul 11, 2019 3:59:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Started InternetExplorerDriver server (32-bit)
+3.14.0.0
+Listening on port 21421
+Only local connections are allowed
+Jul 11, 2019 3:59:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

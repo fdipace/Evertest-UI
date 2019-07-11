@@ -1,0 +1,15 @@
+# Created at 2019-07-11T15:58:37.462
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2019-07-11T15:58:37.475
+WARNING: Illegal reflective access by cucumber.deps.com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/fdipace/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar) to field java.util.TreeMap.comparator
+
+# Created at 2019-07-11T15:58:37.484
+WARNING: Please consider reporting this to the maintainers of cucumber.deps.com.thoughtworks.xstream.core.util.Fields
+
+# Created at 2019-07-11T15:58:37.494
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2019-07-11T15:58:37.506
+WARNING: All illegal access operations will be denied in a future release
+
