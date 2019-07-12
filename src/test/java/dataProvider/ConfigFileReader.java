@@ -35,24 +35,6 @@ public class ConfigFileReader {
         else throw new RuntimeException("Parameter value not specified in the testng.xml file.");
     }
 
-    public String getChromeDriverPath(){
-        String driverPath = properties.getProperty("chromeDriverPath");
-        if(driverPath!= null) return driverPath;
-        else throw new RuntimeException("driverPath not specified in the Configuration.properties file.");
-    }
-
-    public String getFirefoxDriverPath(){
-        String driverPath = properties.getProperty("firefoxDriverPath");
-        if(driverPath!= null) return driverPath;
-        else throw new RuntimeException("driverPath not specified in the Configuration.properties file.");
-    }
-
-    public String getInternetExplorerDriverPath(){
-        String driverPath = properties.getProperty("internetExplorerDriverPath");
-        if(driverPath!= null) return driverPath;
-        else throw new RuntimeException("driverPath not specified in the Configuration.properties file.");
-    }
-
     public long getImplicitlyWait() {
         String implicitlyWait = properties.getProperty("implicitWaitTime");
         if(implicitlyWait != null) return Long.parseLong(implicitlyWait);
@@ -75,21 +57,4 @@ public class ConfigFileReader {
         else throw new RuntimeException("Driver Option not specified in the Configuration.properties file.");
     }
 
-    public String useChromeDriver() {
-        String url = properties.getProperty("useChromeDriver");
-        if(url != null) return url;
-        else throw new RuntimeException("Web Driver not specified in the Configuration.properties file.");
-    }
-
-    public String useFirefoxDriver() {
-        String url = properties.getProperty("useFirefoxDriver");
-        if(url != null) return url;
-        else throw new RuntimeException("Web Driver not specified in the Configuration.properties file.");
-    }
-
-    public String useInternetExplorerDriver() {
-        String url = properties.getProperty("useInternetExplorerDriver");
-        if(url != null) return url;
-        else throw new RuntimeException("Web Driver not specified in the Configuration.properties file.");
-    }
 }
