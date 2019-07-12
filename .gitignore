@@ -1,0 +1,5 @@
+.idea/*
+target/*
+*/target/*
+.idea/workspace.xml
+Evertest-UI.iml
