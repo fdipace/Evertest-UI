@@ -1,1 +1,3 @@
-Evertest-UI.iml
+*.iml
+.idea/*
+target/*
