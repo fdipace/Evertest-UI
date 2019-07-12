@@ -4,6 +4,7 @@ import base.BaseUtil;
 import cucumber.api.Scenario;
 import cucumber.api.java.*;
 import dataProvider.ConfigFileReader;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -29,7 +30,7 @@ public class Hook extends BaseUtil {
         String browser = configFileReader.getTestNGParameterValue("browserName");
         System.out.println("\nPreparing Browser...");
         if (browser.equals("Chrome")) {
-            System.setProperty(configFileReader.useChromeDriver(), configFileReader.getChromeDriverPath());
+            WebDriverManager.chromedriver().setup();
             base.Options = new ChromeOptions();
             base.Options.addArguments(configFileReader.getChromeDriverMaximizedOption());
             base.Driver = new ChromeDriver(base.Options);
@@ -37,17 +38,16 @@ public class Hook extends BaseUtil {
         }
 
         else if (browser.equals("Firefox")) {
-            System.setProperty(configFileReader.useFirefoxDriver(), configFileReader.getFirefoxDriverPath());
+            WebDriverManager.firefoxdriver().setup();
             base.Driver = new FirefoxDriver();
             base.Wait = new WebDriverWait(base.Driver, configFileReader.getImplicitlyWait());
         }
         else if (browser.equals("Internet Explorer")){
-            System.setProperty(configFileReader.useInternetExplorerDriver(), configFileReader.getInternetExplorerDriverPath());
+            WebDriverManager.iedriver().setup();
             base.ieOptions = new InternetExplorerOptions();
             base.ieOptions.setCapability(InternetExplorerDriver.NATIVE_EVENTS, false);
             base.Driver = new InternetExplorerDriver(base.ieOptions);
             base.Wait = new WebDriverWait(base.Driver, configFileReader.getImplicitlyWait());
-            base.Driver.manage().deleteAllCookies();
             base.Driver.manage().window().maximize();
         }
         System.out.println("\nBrowser '"+browser+"' is ready!");
