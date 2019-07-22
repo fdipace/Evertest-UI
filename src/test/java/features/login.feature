@@ -8,8 +8,8 @@ Feature: Trendkite Login Page
   Scenario: User can login to Trendkite
     Given I navigate to Trendkite login page
     When I login with specific user and password
-      | username                    | password                         |
-      | TK_E2E_USER_3@trendkite.com | 250672130AED4F0EB0C76A80A19DBE9E |
+      | username                     | password   |
+      | CISION_E2E_USER_1@cision.com | QAtest123! |
     Then I validate Dashboard page is displayed
 
   @BadLogin @Regression
@@ -19,7 +19,7 @@ Feature: Trendkite Login Page
     And I click the Sign in button
     Then I validate Incorrect User or Password message is displayed
     Examples:
-      | username                    | password                         |
-      | TK_E2E_USER_3@trendkite.com | invalidPassword                  |
-      | invalidUser                 | 250672130AED4F0EB0C76A80A19DBE9E |
-      | TK_E2E_USER_3@trendkite.com | 250672130AED4F0EB0C76A80A19DBE9E |
+      | username                     | password        |
+      | CISION_E2E_USER_1@cision.com | invalidPassword |
+      | invalidUser                  | QAtest123!      |
+      | CISION_E2E_USER_1@cision.com | QAtest123!      |
