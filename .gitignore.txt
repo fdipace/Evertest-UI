@@ -1,12 +1,4 @@
-target/*
-target/*.jar
-target/*.json
-target/*.html
-target/*/*.html
-target/**/*.lst
-target/**/*.xml
-target/**/*.class
-.idea/*
+target/
+target/**
+.idea/
 .idea/**
-target
-.idea
