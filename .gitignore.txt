@@ -7,3 +7,5 @@
 */target/**/*.xml
 */target/**/*.class
 */.idea/*
+target
+.idea
