@@ -22,3 +22,4 @@ Feature: Trendkite Login Page
       | username                     | password        |
       | CISION_E2E_USER_1@cision.com | invalidPassword |
       | invalidUser                  | QAtest123!      |
+      | CISION_E2E_USER_1@cision.com | QAtest123!      |
