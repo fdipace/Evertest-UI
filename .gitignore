@@ -1,6 +1,8 @@
-target/
-target/**
-.idea/
-.idea/**
 Evertest-UI.iml
 .idea/*.xml
+target/*.json
+.idea/
+target/
+.idea/**
+target/**
+target/surefire-reports/
