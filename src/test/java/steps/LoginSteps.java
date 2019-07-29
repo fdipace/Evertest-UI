@@ -29,7 +29,7 @@ public class LoginSteps extends BaseUtil {
 
     public LoginSteps(BaseUtil base) {
         this.base = base;
-        loginPage = new LoginPage(base.Driver);
+        loginPage = new LoginPage(base.Driver, base);
         dashboardPage = new DashboardPage(base.Driver, base);
         helper = new Helper(base);
         driver = base.Driver;
@@ -73,6 +73,5 @@ public class LoginSteps extends BaseUtil {
     public void iValidateIncorrectUserOrPasswordMessageIsDisplayed() {
         Assert.assertTrue("Login error message was not displayed.", wait.until(ExpectedConditions.visibilityOf(loginPage.incorrectUsrOrPwdMessage)).isDisplayed());
         Assert.assertTrue("Expected message is: 'The username or password you entered is invalid' but actually was: '" + loginPage.getIncorrectUsrOrPwdMessage() + "'", loginPage.getIncorrectUsrOrPwdMessage().contains("The username or password you entered is invalid"));
-        //Assert.assertTrue("Expected message is: 'You should all get a Screenshot out of this!!!' but actually was: '" + loginPage.getIncorrectUsrOrPwdMessage() + "'", loginPage.getIncorrectUsrOrPwdMessage().contains("You should all get a Screenshot out of this!!!"));
     }
 }

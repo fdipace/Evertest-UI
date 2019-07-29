@@ -20,12 +20,11 @@ public class DashboardPage {
     private BaseUtil base;
     private Helper helper;
     private WebDriverWait wait;
+
     public DashboardPage(WebDriver driver, BaseUtil base) {
         PageFactory.initElements(driver, this);
         this.base = base;
         helper = new Helper(base);
-        wait = base.Wait;
-        driver = base.Driver;
         actions = new Actions(base.Driver);
     }
 

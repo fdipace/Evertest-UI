@@ -26,7 +26,7 @@ public class DashboardSteps extends BaseUtil {
 
     public DashboardSteps(BaseUtil base) {
         this.base = base;
-        loginPage = new LoginPage(base.Driver);
+        loginPage = new LoginPage(base.Driver, base);
         dashboardPage = new DashboardPage(base.Driver, base);
         helper = new Helper(base);
         driver = base.Driver;
