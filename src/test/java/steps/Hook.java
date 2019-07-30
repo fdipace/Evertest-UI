@@ -10,6 +10,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -28,18 +29,25 @@ public class Hook extends BaseUtil {
     @Before
     public void InitializeTest(Scenario scenario) {
         String browser = configFileReader.getTestNGParameterValue("browserName");
+        Boolean headless = Boolean.valueOf(configFileReader.getTestNGParameterValue("headless"));
         System.out.println("\nPreparing Browser...");
         if (browser.equals("Chrome")) {
             WebDriverManager.chromedriver().setup();
-            base.Options = new ChromeOptions();
-            base.Options.addArguments(configFileReader.getChromeDriverMaximizedOption());
-            base.Driver = new ChromeDriver(base.Options);
+            base.chromeOptions = new ChromeOptions();
+            base.chromeOptions.addArguments(configFileReader.getWebDriverWindowSizeOption());
+            base.chromeOptions.addArguments(configFileReader.getWebDriverMaximizedOption());
+            base.chromeOptions.setHeadless(headless);
+            base.Driver = new ChromeDriver(base.chromeOptions);
             base.Wait = new WebDriverWait(base.Driver, configFileReader.getImplicitlyWait());
         }
 
         else if (browser.equals("Firefox")) {
             WebDriverManager.firefoxdriver().setup();
-            base.Driver = new FirefoxDriver();
+            base.firefoxOptions = new FirefoxOptions();
+            base.firefoxOptions.addArguments(configFileReader.getWebDriverWindowSizeOption());
+            base.firefoxOptions.addArguments(configFileReader.getWebDriverMaximizedOption());
+            base.firefoxOptions.setHeadless(headless);
+            base.Driver = new FirefoxDriver(base.firefoxOptions);
             base.Wait = new WebDriverWait(base.Driver, configFileReader.getImplicitlyWait());
         }
         else if (browser.equals("Internet Explorer")){
@@ -50,7 +58,15 @@ public class Hook extends BaseUtil {
             base.Wait = new WebDriverWait(base.Driver, configFileReader.getImplicitlyWait());
             base.Driver.manage().window().maximize();
         }
-        System.out.println("\nBrowser '"+browser+"' is ready!");
+        if (headless.equals(true))
+        {
+            System.out.println("\nBrowser '"+browser+"' in Headless mode is ready!");
+        }
+        else
+            {
+                System.out.println("\nBrowser '"+browser+"' is ready!");
+            }
+
         System.out.print("\nExecuting Scenario: " + "'" + scenario.getName() + "'");
     }
 

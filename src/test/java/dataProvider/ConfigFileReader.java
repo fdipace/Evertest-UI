@@ -51,10 +51,15 @@ public class ConfigFileReader {
         else throw new RuntimeException("url not specified in the Configuration.properties file.");
     }
 
-    public String getChromeDriverMaximizedOption() {
-        String url = properties.getProperty("chromeDriverMaximizedOption");
+    public String getWebDriverMaximizedOption() {
+        String url = properties.getProperty("webDriverMaximizedOption");
         if(url != null) return url;
         else throw new RuntimeException("Driver Option not specified in the Configuration.properties file.");
     }
 
+    public String getWebDriverWindowSizeOption() {
+        String url = properties.getProperty("webDriverWindowSizeOption");
+        if(url != null) return url;
+        else throw new RuntimeException("Driver Option not specified in the Configuration.properties file.");
+    }
 }
