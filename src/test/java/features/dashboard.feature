@@ -4,7 +4,7 @@ Feature: Trendkite Dashboard Page
   I want to be able to Login to the application
   In order to interact with the Dashboard page features
 
-  @DashboardOnly @Regression
+  @DashboardOnly
   Scenario: User can create a new Dashboard
     Given I navigate to Trendkite login page
     When I login with specific user and password

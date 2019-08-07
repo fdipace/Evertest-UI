@@ -1,4 +1,5 @@
 package base;
+import com.trendkite_automation.Base.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.ie.InternetExplorerOptions;
@@ -10,4 +11,6 @@ public class BaseUtil {
     public WebDriverWait Wait;
     public ChromeOptions Options;
     public InternetExplorerOptions ieOptions;
+
+
 }

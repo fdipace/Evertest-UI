@@ -1,1 +1,12 @@
-C:\TKRepo\TKJavaProject\src\main\java\com\trendkite_automation\Main.java
+C:\Users\ignflo\Cision\AutomationFwks\Evertest-UI\src\main\java\com\trendkite_automation\Main.java
+C:\Users\ignflo\Cision\AutomationFwks\Evertest-UI\src\main\java\com\trendkite_automation\Base\BaseHook.java
+C:\Users\ignflo\Cision\AutomationFwks\Evertest-UI\src\main\java\com\trendkite_automation\dataProvider\ConfigFileReader.java
+C:\Users\ignflo\Cision\AutomationFwks\Evertest-UI\src\main\java\com\trendkite_automation\Drivers\DriverType.java
+C:\Users\ignflo\Cision\AutomationFwks\Evertest-UI\src\main\java\com\trendkite_automation\Drivers\DriverManagerFactory.java
+C:\Users\ignflo\Cision\AutomationFwks\Evertest-UI\src\main\java\com\trendkite_automation\Base\Page.java
+C:\Users\ignflo\Cision\AutomationFwks\Evertest-UI\src\main\java\com\trendkite_automation\Drivers\ChromeDriverManager.java
+C:\Users\ignflo\Cision\AutomationFwks\Evertest-UI\src\main\java\com\trendkite_automation\Drivers\AbstractDriverManager.java
+C:\Users\ignflo\Cision\AutomationFwks\Evertest-UI\src\main\java\com\trendkite_automation\Drivers\DriverManager.java
+C:\Users\ignflo\Cision\AutomationFwks\Evertest-UI\src\main\java\com\trendkite_automation\Base\BasePage.java
+C:\Users\ignflo\Cision\AutomationFwks\Evertest-UI\src\main\java\com\trendkite_automation\Base\PageGenerator.java
+C:\Users\ignflo\Cision\AutomationFwks\Evertest-UI\src\main\java\com\trendkite_automation\Drivers\FirefoxDriverManager.java

@@ -1,55 +1,41 @@
 package steps;
 
-import base.BaseUtil;
+import com.trendkite_automation.Base.Page;
+import com.trendkite_automation.Drivers.DriverManager;
+import com.trendkite_automation.Drivers.DriverManagerFactory;
+import com.trendkite_automation.dataProvider.ConfigFileReader;
+import cucumber.TestContext;
 import cucumber.api.Scenario;
 import cucumber.api.java.*;
-import dataProvider.ConfigFileReader;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.ie.InternetExplorerOptions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.WebDriver;
 
-public class Hook extends BaseUtil {
 
-    private BaseUtil base;
-    private ConfigFileReader configFileReader;
+public class Hook extends BaseHook {
 
-    public Hook(BaseUtil base) {
+    public ConfigFileReader configFileReader;
 
-        this.base = base;
+    private WebDriver driver;
+    private DriverManager driverManager;
+    private TestContext _context;
+
+
+    public Hook(TestContext context) {
         configFileReader = new ConfigFileReader();
+        _context = context;
+        DriverManagerFactory.setGridUrl(configFileReader.getGridUrl());
+        driverManager=setDriverManager(DriverManagerFactory.getManager(DriverManagerFactory.getDriverManagerType()));
+        _context.page = new Page(driver);
     }
 
     @Before
     public void InitializeTest(Scenario scenario) {
         String browser = configFileReader.getTestNGParameterValue("browserName");
         System.out.println("\nPreparing Browser...");
-        if (browser.equals("Chrome")) {
-            WebDriverManager.chromedriver().setup();
-            base.Options = new ChromeOptions();
-            base.Options.addArguments(configFileReader.getChromeDriverMaximizedOption());
-            base.Driver = new ChromeDriver(base.Options);
-            base.Wait = new WebDriverWait(base.Driver, configFileReader.getImplicitlyWait());
-        }
-
-        else if (browser.equals("Firefox")) {
-            WebDriverManager.firefoxdriver().setup();
-            base.Driver = new FirefoxDriver();
-            base.Wait = new WebDriverWait(base.Driver, configFileReader.getImplicitlyWait());
-        }
-        else if (browser.equals("Internet Explorer")){
-            WebDriverManager.iedriver().setup();
-            base.ieOptions = new InternetExplorerOptions();
-            base.ieOptions.setCapability(InternetExplorerDriver.NATIVE_EVENTS, false);
-            base.Driver = new InternetExplorerDriver(base.ieOptions);
-            base.Wait = new WebDriverWait(base.Driver, configFileReader.getImplicitlyWait());
-            base.Driver.manage().window().maximize();
-        }
+        driver = driverManager.get();
+        _context.driver = driver;
+        driver.navigate().to("https://dev.trendkite.com");
         System.out.println("\nBrowser '"+browser+"' is ready!");
         System.out.print("\nExecuting Scenario: " + "'" + scenario.getName() + "'");
     }
@@ -64,29 +50,30 @@ public class Hook extends BaseUtil {
             System.out.print("\nInitiating Teardown...");
             System.out.print("\nClosing Browser '"+browser+"'...");
             try {
-                final byte[] screenshot = ((TakesScreenshot) base.Driver).getScreenshotAs(OutputType.BYTES);
+                final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
                 scenario.embed(screenshot, "image/png");
             } catch (Exception e) {
                 e.printStackTrace();
             }
             if (browser.equals("Internet Explorer"))
             {
-                base.Driver.navigate().to(url);
+                driver.navigate().to(url);
             }
             System.out.print("\nFailed Scenario Name: " + "'" + scenario.getName() + "'");
-            base.Driver.manage().deleteAllCookies();
-            base.Driver.quit();
+            driver.manage().deleteAllCookies();
+            driver.quit();
             System.out.print("\nBrowser is closed!!!\n---------------------------------------------------------------");
         } else {
             System.out.print("\nInitiating Teardown...");
             System.out.print("\nClosing Browser '"+browser+"'...");
             if (browser.equals("Internet Explorer"))
             {
-                base.Driver.navigate().to(url);
+                driver.navigate().to(url);
             }
             System.out.print("\nPassed Scenario Name: " + "'" + scenario.getName() + "'");
-            base.Driver.manage().deleteAllCookies();
-            base.Driver.quit();
+            System.out.println("Quitting WebDriver");
+            driverManager.quitDriver();
+            driverManager.stopService();
             System.out.print("\nBrowser is closed!!!\n---------------------------------------------------------------\n");
         }
     }

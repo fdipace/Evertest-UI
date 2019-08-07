@@ -20,6 +20,4 @@ Feature: Trendkite Login Page
     Then I validate Incorrect User or Password message is displayed
     Examples:
       | username                    | password                         |
-      | TK_E2E_USER_3@trendkite.com | invalidPassword                  |
-      | invalidUser                 | 250672130AED4F0EB0C76A80A19DBE9E |
       | TK_E2E_USER_3@trendkite.com | 250672130AED4F0EB0C76A80A19DBE9E |

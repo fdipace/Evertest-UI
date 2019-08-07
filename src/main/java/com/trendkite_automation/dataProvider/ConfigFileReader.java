@@ -1,4 +1,4 @@
-package dataProvider;
+package com.trendkite_automation.dataProvider;
 
 import org.testng.Reporter;
 
@@ -6,10 +6,12 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Properties;
 
 public class ConfigFileReader {
-    private Properties properties;
+    private static Properties properties;
     private final String propertyFilePath= "configs//config.properties";
 
     public ConfigFileReader(){
@@ -56,5 +58,40 @@ public class ConfigFileReader {
         if(url != null) return url;
         else throw new RuntimeException("Driver Option not specified in the Configuration.properties file.");
     }
+
+
+    public String getChromeDriverPath(){
+        String driverPath = properties.getProperty("chromeDriverPath");
+        if(driverPath!= null) return driverPath;
+        else throw new RuntimeException("driverPath not specified in the Configuration.properties file.");
+    }
+
+    public String getFirefoxDriverPath(){
+        String driverPath = properties.getProperty("firefoxDriverPath");
+        if(driverPath!= null) return driverPath;
+        else throw new RuntimeException("driverPath not specified in the Configuration.properties file.");
+    }
+
+    public String getInternetExplorerDriverPath(){
+        String driverPath = properties.getProperty("internetExplorerDriverPath");
+        if(driverPath!= null) return driverPath;
+        else throw new RuntimeException("driverPath not specified in the Configuration.properties file.");
+    }
+
+    public static URL getGridUrl()
+    {
+        URL gridUrl=null;
+        final String propertyValue = properties.getProperty("gridUrl");
+        if (propertyValue != null) {
+            try {
+                gridUrl= new URL(propertyValue);
+            } catch (final MalformedURLException e) {
+                throw new IllegalArgumentException(
+                        "The value of the environment variable 'gridUrl' is not a valid URL.", e);
+            }
+        }
+        return gridUrl;
+    }
+
 
 }

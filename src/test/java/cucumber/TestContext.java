@@ -1,20 +1,26 @@
 package cucumber;
 
-import base.BaseUtil;
+import com.trendkite_automation.Base.Page;
+import enums.Context;
 import org.openqa.selenium.WebDriver;
 
-public class TestContext extends BaseUtil {
-    private BaseUtil base;
-    private WebDriver driver;
-    public ScenarioContext scenarioContext;
+import java.util.Map;
 
-    public TestContext(BaseUtil base) {
-        this.base = base;
-        driver = base.Driver;
-        scenarioContext = new ScenarioContext();
+public class TestContext {
+
+    public WebDriver driver;
+    public Page page;
+    private Map<String, Object> scenarioContext;
+
+    public void setContext(Context key, Object value) {
+        scenarioContext.put(key.toString(), value);
     }
 
-    public ScenarioContext getScenarioContext() {
-        return scenarioContext;
+    public Object getContext(Context key){
+        return scenarioContext.get(key.toString());
+    }
+
+    public Boolean isContains(Context key){
+        return scenarioContext.containsKey(key.toString());
     }
 }

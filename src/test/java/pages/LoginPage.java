@@ -1,15 +1,15 @@
 package pages;
 
+import com.trendkite_automation.Base.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+public class LoginPage extends BasePage<LoginPage> {
 
-    public LoginPage(WebDriver driver) {
-        PageFactory.initElements(driver, this);
+    public LoginPage(WebDriver driver){
+        super(driver);
     }
 
     @FindBy(how = How.CSS, using = ".visible-lg * input[name=username]")
@@ -44,5 +44,11 @@ public class LoginPage {
     public String getIncorrectUsrOrPwdMessage()
     {
         return incorrectUsrOrPwdMessage.getText();
+    }
+
+
+    @Override
+    public boolean isLoaded() throws Error {
+        return loaded(usernameInput);
     }
 }

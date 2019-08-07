@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fedb6b7-04ba-40d4-b797-174c3454134a" name="Default Changelist" comment="" />
+    <list default="true" id="8fedb6b7-04ba-40d4-b797-174c3454134a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_picocontainer_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_picocontainer_picocontainer_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Evertest-UI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Evertest-UI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/ScenarioContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/TestContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/TestContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataProvider/ConfigFileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/dashboard.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/dashboard.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/DashboardSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/DashboardSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/Helper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber/ScenarioContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber/TestContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumber/TestContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dataProvider/ConfigFileReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/DashboardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/DashboardSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/DashboardSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Hook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/Hook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/LoginSteps.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,73 +64,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hook.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="76" column="52" lean-forward="true" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/DashboardPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-527">
-              <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/DashboardSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/ScenarioContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+            <state relative-caret-position="102">
+              <caret line="74" column="32" lean-forward="true" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/dashboard.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/LoginSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="72" lean-forward="true" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/runner/TestRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="683">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,19 +88,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/full_regression_dev_chrome_testng.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="11" selection-end-column="45" />
+            <state relative-caret-position="238">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,13 +100,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/base/Helper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/PageGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#739#740#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -161,59 +137,72 @@
       <find>map</find>
       <find>surefire</find>
       <find>con</find>
+      <find>maximi</find>
+      <find>report</find>
+      <find>new Page(</find>
+      <find>DriverType.Chrom</find>
+      <find>setDriver</find>
+      <find>surfir</find>
+      <find>setDriver(</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/trendkite_automation/Main.java" />
-        <option value="$PROJECT_DIR$/src/features/login.feature" />
-        <option value="$PROJECT_DIR$/src/test/step_definitions/login_steps.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Main.java" />
-        <option value="$PROJECT_DIR$/src/test/java/loginSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/dashboardSteps.js" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cucumber/ScenarioContext.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cucumber/TestContext.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestSuites/testNG_dev.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Base/Helper.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/full_regression_chrome_testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/suites/full_regression_dev_firefox_testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/suites/full_regression_staging_firefox_testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/suites/full_regression_staging_chrome_testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/test1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/test2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/steps1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/suites/full_regression_dev_chrome_testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/features/login-page.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/loginSteps2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/loginSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/dashboardSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/Hook.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Base/BaseUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/DashboardSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/runner/SystemInfoReport.java" />
-        <option value="$PROJECT_DIR$/src/test/java/base/ExtentReportUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/runner/NGTestListener.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/enums/Context.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dataProvider/ConfigFileReader.java" />
-        <option value="$PROJECT_DIR$/full_regression_dev_chrome_testng.xml" />
-        <option value="$PROJECT_DIR$/full_regression_staging_chrome_testng.xml" />
-        <option value="$PROJECT_DIR$/full_regression_dev_ie_testng.xml" />
-        <option value="$PROJECT_DIR$/full_regression_dev_firefox_testng.xml" />
-        <option value="$PROJECT_DIR$/full_regression_staging_firefox_testng.xml" />
-        <option value="$PROJECT_DIR$/full_regression_staging_ie_testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/base/BaseUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/PageComponent.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/TestModal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/IPageGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Support/ProjectInjector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/DriverFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/DriverService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/CrossDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataProvider/ConfigFileReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/AbstractDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/DriverManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/DriverFactoryModule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/ChromeDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/DriverManagerFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Support/Injector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/Injector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/DriverFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/PageObjects/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/TestContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/BaseModule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/CustomLoadablePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/PageObjects/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/DriverFactoryModule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/ModuleFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/FirefoxDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/BaseSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/DriverModule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/dataProvider/ConfigFileReader.java" />
         <option value="$PROJECT_DIR$/configs/config.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/features/dashboard.feature" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/full_regression_dev_chrome_testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/base/Helper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cucumber/TestContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/AbstractDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/DriverManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/DriverType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/DriverManagerFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/BaseHook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/ChromeDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/FirefoxDriverManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/Hook.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/DashboardSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/login.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/PageGenerator.java" />
       </list>
     </option>
   </component>
@@ -224,11 +213,27 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Evertest-UI" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Evertest-UI" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-26" />
-    <option name="y" value="-8" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -241,95 +246,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="TKJavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TKJavaProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TKJavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TKJavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TKJavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TKJavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TKJavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TKJavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TKJavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TKJavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TKJavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TKJavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TKJavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TKJavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TKJavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TKJavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataProvider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TKJavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TKJavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TKJavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TKJavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TKJavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TKJavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TKJavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TKJavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="runner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TKJavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TKJavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
+              <item name="Evertest-UI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Evertest-UI" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -338,11 +256,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.cucumber.cucumber_node_package_dir" value="C:/Program Files/nodejs/node_modules/cucumber" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -371,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/TKRepo/TKJavaProject/full_regression_dev_ie_testng.xml">
+  <component name="RunManager" selected="TestNG.C:/TKRepo/TKJavaProject/full_regression_dev_chrome_testng.xml">
     <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/login.feature" />
@@ -389,6 +308,31 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Evertest-UI [verify]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="verify" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_chrome_testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Evertest-UI" />
@@ -420,30 +364,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/TKRepo/TKJavaProject/src/test/java/suites/full_regression_dev_firefox_testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Evertest-UI" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/suites/full_regression_dev_firefox_testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Cucumber java.Feature: login" />
       <item itemvalue="TestNG.C:/TKRepo/TKJavaProject/src/test/java/suites/full_regression_dev_chrome_testng.xml" />
-      <item itemvalue="TestNG.C:/TKRepo/TKJavaProject/src/test/java/suites/full_regression_dev_firefox_testng.xml" />
       <item itemvalue="TestNG.C:/TKRepo/TKJavaProject/full_regression_dev_chrome_testng.xml" />
       <item itemvalue="TestNG.C:/TKRepo/TKJavaProject/full_regression_dev_ie_testng.xml" />
+      <item itemvalue="Maven.Evertest-UI [verify]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/TKRepo/TKJavaProject/full_regression_dev_ie_testng.xml" />
         <item itemvalue="TestNG.C:/TKRepo/TKJavaProject/full_regression_dev_chrome_testng.xml" />
-        <item itemvalue="TestNG.C:/TKRepo/TKJavaProject/src/test/java/suites/full_regression_dev_chrome_testng.xml" />
-        <item itemvalue="TestNG.C:/TKRepo/TKJavaProject/src/test/java/suites/full_regression_dev_firefox_testng.xml" />
+        <item itemvalue="Maven.Evertest-UI [verify]" />
         <item itemvalue="Cucumber java.Feature: login" />
+        <item itemvalue="TestNG.C:/TKRepo/TKJavaProject/full_regression_dev_ie_testng.xml" />
+        <item itemvalue="TestNG.C:/TKRepo/TKJavaProject/src/test/java/suites/full_regression_dev_chrome_testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -468,43 +402,48 @@
       <workItem from="1562343828175" duration="11420000" />
       <workItem from="1562766205513" duration="7768000" />
       <workItem from="1562851212135" duration="4859000" />
+      <workItem from="1563011231475" duration="28044000" />
+      <workItem from="1563184255482" duration="47660000" />
+      <workItem from="1563439038054" duration="44886000" />
+      <workItem from="1564669152338" duration="22000" />
+      <workItem from="1565082301433" duration="35908000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_chrome_testng_xml - 2019.07.04 at 12h 51m 39s.xml">
+    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_chrome_testng_xml - 2019.08.07 at 13h 22m 49s.xml">
       <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_chrome_testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_chrome_testng_xml - 2019.07.04 at 13h 00m 27s.xml">
+    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_chrome_testng_xml - 2019.08.07 at 15h 04m 01s.xml">
       <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_chrome_testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_ie_testng_xml - 2019.07.05 at 16h 14m 41s.xml">
-      <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_ie_testng.xml" configurationId="TestNG" />
+    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_chrome_testng_xml - 2019.08.07 at 15h 06m 14s.xml">
+      <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_chrome_testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_ie_testng_xml - 2019.07.05 at 16h 39m 59s.xml">
-      <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_ie_testng.xml" configurationId="TestNG" />
+    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_chrome_testng_xml - 2019.08.07 at 15h 07m 25s.xml">
+      <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_chrome_testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_ie_testng_xml - 2019.07.05 at 16h 53m 00s.xml">
-      <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_ie_testng.xml" configurationId="TestNG" />
+    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_chrome_testng_xml - 2019.08.07 at 15h 09m 23s.xml">
+      <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_chrome_testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_ie_testng_xml - 2019.07.10 at 15h 27m 10s.xml">
-      <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_ie_testng.xml" configurationId="TestNG" />
+    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_chrome_testng_xml - 2019.08.07 at 15h 13m 18s.xml">
+      <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_chrome_testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_ie_testng_xml - 2019.07.10 at 15h 35m 41s.xml">
-      <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_ie_testng.xml" configurationId="TestNG" />
+    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_chrome_testng_xml - 2019.08.07 at 15h 14m 53s.xml">
+      <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_chrome_testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_ie_testng_xml - 2019.07.10 at 15h 51m 10s.xml">
-      <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_ie_testng.xml" configurationId="TestNG" />
+    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_chrome_testng_xml - 2019.08.07 at 15h 15m 11s.xml">
+      <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_chrome_testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_ie_testng_xml - 2019.07.10 at 15h 54m 45s.xml">
-      <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_ie_testng.xml" configurationId="TestNG" />
+    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_chrome_testng_xml - 2019.08.07 at 15h 16m 22s.xml">
+      <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_chrome_testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_ie_testng_xml - 2019.07.10 at 16h 02m 13s.xml">
-      <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_ie_testng.xml" configurationId="TestNG" />
+    <history-entry file="C__TKRepo_TKJavaProject_full_regression_dev_chrome_testng_xml - 2019.08.07 at 15h 21m 25s.xml">
+      <configuration name="C:/TKRepo/TKJavaProject/full_regression_dev_chrome_testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195768000" />
+    <option name="totallyTimeSpent" value="352288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -516,26 +455,61 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49851632" visible="true" weight="0.2602118" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49851632" visible="true" weight="0.2774799" />
       <window_info id="Structure" order="1" sideWeight="0.5014837" side_tool="true" weight="0.25340393" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5014837" side_tool="true" weight="0.25340393" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36497545" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3281471" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3479491" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35679215" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3281471" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35643566" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.39886847" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.40311173" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Learn" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49851632" visible="true" weight="0.26340482" />
+      <window_info id="Structure" order="2" sideWeight="0.5014837" side_tool="true" weight="0.25340393" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.5014837" side_tool="true" weight="0.25340393" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3281471" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3649222" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3281471" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35643566" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.40425533" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.40311173" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -548,22 +522,122 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Support/Injector.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/Hook.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/AbstractDriverManager.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/AbstractDriverManager.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/AbstractDriverManager.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/ChromeDriverManager.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/ChromeDriverManager.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/Hook.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/LoginSteps.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/LoginSteps.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/LoginSteps.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/LoginSteps.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/LoginSteps.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TKJavaProject$Scenario__User_can_create_a_new_Dashboard.ic" NAME="Scenario: User can create a new Dashboard Coverage Results" MODIFIED="1561588898539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>cucumber.api.cli.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/TKJavaProject$Feature__login__1_.ic" NAME="Feature: login (1) Coverage Results" MODIFIED="1561144123706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TKJavaProject$Scenario__User_cannot_login_to_Trendkite_with_invalid_user_or_password.ic" NAME="Scenario: User cannot login to Trendkite with invalid user or password Coverage Results" MODIFIED="1561564192668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>cucumber.api.cli.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TKJavaProject$Feature__login.ic" NAME="Feature: login Coverage Results" MODIFIED="1561142945483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>cucumber.api.cli.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/TKJavaProject$Scenario__User_cannot_login_to_Trendkite_with_invalid_user_or_password.ic" NAME="Scenario: User cannot login to Trendkite with invalid user or password Coverage Results" MODIFIED="1561564192668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TKJavaProject$Feature__login__1_.ic" NAME="Feature: login (1) Coverage Results" MODIFIED="1561144123706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>cucumber.api.cli.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TKJavaProject$Scenario__User_can_login_to_Trendkite.ic" NAME="Scenario: User can login to Trendkite Coverage Results" MODIFIED="1562087953500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -573,393 +647,386 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>element.getText()</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>org.openqa.selenium.By</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>element.isDisplayed()</expression-string>
         <language-id>JAVA</language-id>
-        <custom-info>org.openqa.selenium.By</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>loginPage.incorrectUsrOrPwdMessage.isDisplayed()</expression-string>
+        <expression-string>isLoaded()</expression-string>
         <language-id>JAVA</language-id>
-        <custom-info>org.openqa.selenium.By</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.findElement(By.cssSelector(&quot;div.visible-lg form &gt; p[id=loginErrorMessage]&quot;)).getText()</expression-string>
+        <expression-string>loaded(usernameInput)</expression-string>
         <language-id>JAVA</language-id>
-        <custom-info>org.openqa.selenium.By</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector(&quot;div.visible-lg form &gt; p[id=loginErrorMessage]&quot;))))</expression-string>
+        <expression-string>wait.equals(ExpectedConditions.visibilityOf(element))</expression-string>
         <language-id>JAVA</language-id>
-        <custom-info>org.openqa.selenium.By</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector(&quot;div.visible-lg form &gt; p[id=loginErrorMessage]&quot;)))</expression-string>
+        <expression-string>WebDriverManager.chromedriver().getBinaryPath()</expression-string>
         <language-id>JAVA</language-id>
-        <custom-info>org.openqa.selenium.By</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector(&quot;div.visible-lg&quot;)))</expression-string>
+        <expression-string>getClass()</expression-string>
         <language-id>JAVA</language-id>
-        <custom-info>org.openqa.selenium.By</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>wait.until(ExpectedConditions.visibilityOf(By.cssSelector(&quot;div.visible-lg&quot;)))</expression-string>
+        <expression-string>getClassLoader()</expression-string>
         <language-id>JAVA</language-id>
-        <custom-info>org.openqa.selenium.By</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>wait.until(ExpectedConditions.visibilityOf(element))</expression-string>
+        <expression-string>.getClassLoader()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getClass().getClassLoader()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/StepDefinitionMatch.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#2120#2121#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="82">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/annotations/Parameters.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/TestMethodWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar!/cucumber/api/testng/TestNGCucumberRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/model/CucumberFeature.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="195" selection-start-line="195" selection-end-line="195" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Timeout.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar!/cucumber/runtime/java/JavaHookDefinition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/model/CucumberScenario.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Runtime.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="201" selection-start-line="201" selection-end-line="201" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/TestRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="349" column="16" selection-start-line="349" selection-start-column="16" selection-end-line="349" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="367" column="17" selection-start-line="367" selection-start-column="17" selection-end-line="367" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/test1.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/test2.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/steps1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/DriverManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/DriverFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/xml/XmlTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="342" column="18" selection-start-line="342" selection-start-column="18" selection-end-line="342" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/loginSteps2.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/login-page.feature" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/function/Predicate.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar!/META-INF/maven/info.cukes/cucumber-jvm-deps/pom.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar!/META-INF/maven/info.cukes/cucumber-jvm-deps/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runner/SystemInfoReport.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/ExtentReportUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/runner/NGTestListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1261#1262#0" expanded="true" />
-            <element signature="e#1318#1319#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar!/cucumber/api/testng/AbstractTestNGCucumberTests.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/full_regression_dev_firefox_testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/full_regression_staging_chrome_testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/full_regression_staging_firefox_testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/full_regression_staging_ie_testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/ScenarioImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="e#1909#1910#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/full_regression_staging_firefox_testng.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/full_regression_dev_ie_testng.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/full_regression_dev_firefox_testng.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/BaseModule.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/CustomLoadablePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/DriverFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/TestContext.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/DriverFactoryModule.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/ModuleFactory.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar!/org/picocontainer/injectors/ConstructorInjector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="221" selection-start-line="221" selection-end-line="221" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/DriverModule.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/4.0/guice-4.0.jar!/com/google/inject/Provider.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/dataProvider/ConfigFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="469" selection-start-line="469" selection-end-line="469" />
-          <folding>
-            <element signature="e#17978#17979#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Utils.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Runtime.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="133">
+          <caret line="219" column="17" selection-start-line="219" selection-start-column="17" selection-end-line="219" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/LoginSteps.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/ConfigFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/configs/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/enums/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/login.feature">
+    <entry file="file://$PROJECT_DIR$/full_regression_dev_chrome_testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="85">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/TestContext.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/ConfigFileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="115">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/LoadableComponent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/PageFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runner/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/ScenarioContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+        <state relative-caret-position="238">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#318#319#0" expanded="true" />
             <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/enums/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/TestContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/DriverType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/DriverManagerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/AbstractDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/ChromeDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="84" column="52" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/BaseHook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar!/org/picocontainer/injectors/AbstractInjector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Drivers/FirefoxDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="995">
+          <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/base/Helper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="1292">
+          <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/dashboard.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
-            <element signature="e#739#740#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="11" selection-end-column="45" />
+        <state relative-caret-position="238">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="76" column="52" lean-forward="true" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/DashboardPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/DashboardSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runner/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="-493">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/full_regression_dev_chrome_testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/DashboardSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="-136">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/dashboard.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/DashboardPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="72" lean-forward="true" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+        <state relative-caret-position="323">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/PageGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trendkite_automation/Base/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="74" column="32" lean-forward="true" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/LoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,7 +1069,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>12.0.1</last-edited>
+          <last-edited>12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,32 +1,25 @@
 package pages;
 
-import base.BaseUtil;
-import base.Helper;
+import com.trendkite_automation.Base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
-public class DashboardPage {
-    private WebDriver driver;
-    private Actions actions;
-    private BaseUtil base;
-    private Helper helper;
-    private WebDriverWait wait;
-    public DashboardPage(WebDriver driver, BaseUtil base) {
-        PageFactory.initElements(driver, this);
-        this.base = base;
-        helper = new Helper(base);
-        wait = base.Wait;
-        driver = base.Driver;
-        actions = new Actions(base.Driver);
+public class DashboardPage extends BasePage<DashboardPage> {
+
+    public DashboardPage(WebDriver driver) {
+        super(driver);
+    }
+
+
+    @Override
+    public boolean isLoaded() throws Error {
+        return loaded(newDashboardButton);
     }
 
     //----------------------------------------------------------------------------
@@ -98,20 +91,20 @@ public class DashboardPage {
             deleteDashboardFirstItem();
             myDashboardItems.size();
         }
-        helper.waitForClickability(newDashboardButton);
+        //helper.waitForClickability(newDashboardButton);
         newDashboardButton.click();
-        helper.waitForVisibility(customNewDashboardButton);
+        //helper.waitForVisibility(customNewDashboardButton);
         customNewDashboardButton.click();
-        helper.waitForVisibility(addDashModal);
+        //helper.waitForVisibility(addDashModal);
         addDashTitle.sendKeys(dashboardName);
-        helper.waitForVisibility(addDashNextButton);
+        //helper.waitForVisibility(addDashNextButton);
         addDashNextButton.click();
-        helper.waitForVisibility(searchSelectorCreateNewSearchButton);
+        //helper.waitForVisibility(searchSelectorCreateNewSearchButton);
         searchSelectorCreateNewSearchButton.click();
 
         WebElement editor = addDashModal.findElement(By.cssSelector(newSearchTextEditor));
         WebElement editorInput = addDashModal.findElement(By.cssSelector(newSearchTextEditorInput));
-        actions.doubleClick(editor).perform();
+        //actions.doubleClick(editor).perform();
         editorInput.sendKeys(searchText);
 
         searchTitleField.sendKeys(searchName);
@@ -123,18 +116,21 @@ public class DashboardPage {
 
     public void deleteDashboardFirstItem()
     {
-        helper.waitForClickability(myDashboardItems.get(0));
+        /***
+         * Helper waits, can be moved to base page
+         */
+        //helper.waitForClickability(myDashboardItems.get(0));
         myDashboardItems.get(0).click();
-        helper.waitForVisibility(deleteDashboardModal);
-        helper.waitForVisibility(modalFooter);
-        helper.waitForClickability(confirmDeleteButton);
+        //helper.waitForVisibility(deleteDashboardModal);
+        //helper.waitForVisibility(modalFooter);
+        //helper.waitForClickability(confirmDeleteButton);
         confirmDeleteButton.click();
-        helper.waitForInvisibility(modalFooter);
+        //helper.waitForInvisibility(modalFooter);
     }
 
     public boolean checkCurrentDashboardByName(String dashboardName)
     {
-        helper.waitForVisibility(dashboardNameField);
+        //helper.waitForVisibility(dashboardNameField);
         boolean bool = dashboardNameField.getAttribute("value").contains(dashboardName);
         return bool;
     }

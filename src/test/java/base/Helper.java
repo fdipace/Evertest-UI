@@ -32,7 +32,7 @@ public class Helper extends BaseUtil {
 
     public void waitForElementToBeClickable(WebElement element)
     {
-        wait.until(ExpectedConditions.elementToBeClickable(element));
+       // wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
         public boolean urlContains(String url)
@@ -53,7 +53,7 @@ public class Helper extends BaseUtil {
         public void waitForPageToLoad()
         {
             WebElement ele = driver.findElement(By.id(mainAppId));
-            wait.until(ExpectedConditions.visibilityOf(ele));
+            //wait.until(ExpectedConditions.visibilityOf(ele));
         }
 
         public void sleep(int milliseconds)
@@ -68,25 +68,25 @@ public class Helper extends BaseUtil {
         //Wait until Invisibility of element is completed
         public void waitForInvisibility(WebElement element){
         try{
-            wait.until(ExpectedConditions.invisibilityOf(element));
+            //wait.until(ExpectedConditions.invisibilityOf(element));
         }catch(Exception e){}
         }
 
     //Wait until Visibility of element is completed
     public void waitForVisibility(WebElement element){
         try{
-            wait.until(ExpectedConditions.visibilityOf(element));
+            //wait.until(ExpectedConditions.visibilityOf(element));
         }catch(Exception e){}
     }
 
     //Wait until Visibility of element is completed
     public void waitForClickability(WebElement element){
         try{
-            wait.until(ExpectedConditions.elementToBeClickable(element));
+            //wait.until(ExpectedConditions.elementToBeClickable(element));
         }catch(Exception e){}
     }
 
-    public String currentTime(){
+    public static String currentTime(){
         Date date = Calendar.getInstance().getTime();
         DateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss");
         return dateFormat.format(date);
