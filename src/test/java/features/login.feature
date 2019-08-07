@@ -19,11 +19,8 @@ Feature: Trendkite Login Page
     And I click the Sign in button
     Then I validate Incorrect User or Password message is displayed
     Examples:
-<<<<<<< HEAD
       | username                    | password                         |
       | TK_E2E_USER_3@trendkite.com | 250672130AED4F0EB0C76A80A19DBE9E |
-=======
       | username                     | password        |
       | CISION_E2E_USER_1@cision.com | invalidPassword |
       | invalidUser                  | QAtest123!      |
->>>>>>> master

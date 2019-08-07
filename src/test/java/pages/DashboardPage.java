@@ -10,7 +10,6 @@ import org.openqa.selenium.support.How;
 
 import java.util.List;
 
-<<<<<<< HEAD
 public class DashboardPage extends BasePage<DashboardPage> {
 
     public DashboardPage(WebDriver driver) {
@@ -21,7 +20,6 @@ public class DashboardPage extends BasePage<DashboardPage> {
     @Override
     public boolean isLoaded() throws Error {
         return loaded(newDashboardButton);
-=======
 public class DashboardPage {
     private WebDriver driver;
     private Actions actions;
@@ -34,7 +32,6 @@ public class DashboardPage {
         this.base = base;
         helper = new Helper(base);
         actions = new Actions(base.Driver);
->>>>>>> master
     }
 
     //----------------------------------------------------------------------------
