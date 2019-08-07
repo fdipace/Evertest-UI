@@ -1,8 +1,6 @@
 package pages;
 
-<<<<<<< HEAD
 import com.trendkite_automation.Base.BasePage;
-=======
 import base.BaseUtil;
 import base.Helper;
 import cucumber.TestContext;
