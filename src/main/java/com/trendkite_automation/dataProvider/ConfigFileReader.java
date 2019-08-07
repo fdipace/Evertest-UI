@@ -59,7 +59,6 @@ public class ConfigFileReader {
         else throw new RuntimeException("Driver Option not specified in the Configuration.properties file.");
     }
 
-<<<<<<< HEAD:src/main/java/com/trendkite_automation/dataProvider/ConfigFileReader.java
 
     public String getChromeDriverPath(){
         String driverPath = properties.getProperty("chromeDriverPath");
@@ -95,11 +94,9 @@ public class ConfigFileReader {
     }
 
 
-=======
     public String getWebDriverWindowSizeOption() {
         String url = properties.getProperty("webDriverWindowSizeOption");
         if(url != null) return url;
         else throw new RuntimeException("Driver Option not specified in the Configuration.properties file.");
     }
->>>>>>> master:src/test/java/dataProvider/ConfigFileReader.java
 }
