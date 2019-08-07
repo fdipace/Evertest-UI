@@ -5,6 +5,7 @@
     <test name="Full Regression using Chrome Browser" >
         <parameter name="browserName" value="Chrome" />
         <parameter name="env" value="staging" />
+        <parameter name="headless" value="${headlessValue}" />
         <classes>
             <class name="runner.TestRunner" />
         </classes>

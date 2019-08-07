@@ -1,5 +1,3 @@
-.idea/*
-target/*
-*/target/*
-.idea/workspace.xml
-Evertest-UI.iml
+.idea/
+target/
+node_modules

@@ -5,6 +5,7 @@
     <test name="Full Regression using Firefox Browser" >
         <parameter name="browserName" value="Firefox" />
         <parameter name="env" value="dev" />
+        <parameter name="headless" value="${headlessValue}" />
         <classes>
             <class name="runner.TestRunner" />
         </classes>

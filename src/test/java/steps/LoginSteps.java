@@ -26,6 +26,13 @@ public class LoginSteps{
     public LoginSteps(TestContext context) {
         _context = context;
         _driver = _context.driver;
+    public LoginSteps(BaseUtil base) {
+        this.base = base;
+        loginPage = new LoginPage(base.Driver, base);
+        dashboardPage = new DashboardPage(base.Driver, base);
+        helper = new Helper(base);
+        driver = base.Driver;
+        wait = base.Wait;
         configFileReader = new ConfigFileReader();
         _context.page = new Page(_driver);
         loginPage = _context.page.loadPage(LoginPage.class);
@@ -67,11 +74,16 @@ public class LoginSteps{
 
     @Then("^I validate Incorrect User or Password message is displayed$")
     public void iValidateIncorrectUserOrPasswordMessageIsDisplayed() {
+
         dashboardPage.waitToLoad();
         Assert.assertTrue("Dashboard page was not reached.", _driver.getCurrentUrl().contains(dashboardPage.dashboardPageURL));
         Assert.assertTrue("Dashboard page was not reached.", dashboardPage.newDashboardButton.isDisplayed());
         //Assert.assertFalse("Login error message was not displayed.", loginPage.incorrectUsrOrPwdMessage.isDisplayed());
         //Assert.assertFalse("Expected message is: 'The username or password you entered is invalid' but actually was: '" + loginPage.getIncorrectUsrOrPwdMessage() + "'", loginPage.getIncorrectUsrOrPwdMessage().contains("The username or password you entered is invalid"));
         //Assert.assertFalse("Expected message is: 'You should all get a Screenshot out of this!!!' but actually was: '" + loginPage.getIncorrectUsrOrPwdMessage() + "'", loginPage.getIncorrectUsrOrPwdMessage().contains("You should all get a Screenshot out of this!!!"));
+
+        Assert.assertTrue("Login error message was not displayed.", wait.until(ExpectedConditions.visibilityOf(loginPage.incorrectUsrOrPwdMessage)).isDisplayed());
+        Assert.assertTrue("Expected message is: 'The username or password you entered is invalid' but actually was: '" + loginPage.getIncorrectUsrOrPwdMessage() + "'", loginPage.getIncorrectUsrOrPwdMessage().contains("The username or password you entered is invalid"));
+
     }
 }

@@ -24,6 +24,19 @@ public class DashboardSteps {
         _driver = _context.driver;
         _context.page = new Page(_driver);
         dashboardPage = _context.page.loadPage(DashboardPage.class);
+    private Helper helper;
+    private WebDriver driver;
+    private WebDriverWait wait;
+    private TestContext testContext;
+
+    public DashboardSteps(BaseUtil base) {
+        this.base = base;
+        loginPage = new LoginPage(base.Driver, base);
+        dashboardPage = new DashboardPage(base.Driver, base);
+        helper = new Helper(base);
+        driver = base.Driver;
+        wait = base.Wait;
+        testContext = new TestContext(base);
     }
 
     @When("^I create a new Dashboard$")

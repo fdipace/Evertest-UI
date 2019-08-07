@@ -1,15 +1,39 @@
 package pages;
 
+<<<<<<< HEAD
 import com.trendkite_automation.Base.BasePage;
+=======
+import base.BaseUtil;
+import base.Helper;
+import cucumber.TestContext;
+>>>>>>> master
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+<<<<<<< HEAD
 
 public class LoginPage extends BasePage<LoginPage> {
 
     public LoginPage(WebDriver driver){
         super(driver);
+=======
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class LoginPage extends BaseUtil {
+
+    private BaseUtil base;
+    private Helper helper;
+    private WebDriver driver;
+    private WebDriverWait wait;
+    private TestContext testContext;
+
+    public LoginPage(WebDriver driver, BaseUtil base) {
+        PageFactory.initElements(driver, this);
+        this.base = base;
+        helper = new Helper(base);
+>>>>>>> master
     }
 
     @FindBy(how = How.CSS, using = ".visible-lg * input[name=username]")
